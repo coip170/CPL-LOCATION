@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location de Voitures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Location de Voitures</h1>
+        <nav>
+            <a href="#home">Accueil</a>
+            <a href="#catalog">Catalogue</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <h2>Réservez la voiture parfaite pour votre voyage</h2>
+        <button onclick="scrollToCatalog()">Voir les voitures</button>
+    </section>
+
+    <section id="catalog">
+        <h2>Nos voitures</h2>
+        <div class="car">
+            <img src="car1.jpg" alt="Car 1">
+            <h3>Renault Clio</h3>
+            <p>À partir de 30€/jour</p>
+            <button>Réserver</button>
+        </div>
+        <div class="car">
+            <img src="car2.jpg" alt="Car 2">
+            <h3>Peugeot 208</h3>
+            <p>À partir de 35€/jour</p>
+            <button>Réserver</button>
+        </div>
+        <!-- Ajouter d'autres voitures -->
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <input type="text" placeholder="Nom" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Location de Voitures - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
